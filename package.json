@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@firebase/testing": "^0.20.4",
+    "@types/jest": "^26.0.2",
+    "jest": "^26.1.0",
+    "jest-environment-node": "^26.1.0"
+  },
+  "jest": {
+    "testEnvironment": "./__test-utils__/custom-jest-environment.js"
+  }
+}
